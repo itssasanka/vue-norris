@@ -1,21 +1,26 @@
-# vue-norris
+# Vue-Norris
+Chuck Norris Jokes using VueJS. Uses api.chucknorris.io to get random Chuck Norris jokes
 
-> Chuck Norris Jokes using VueJS
+# Demo
+https://vue-norris.firebaseapp.com/
 
-## Build Setup
+# Installation
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+## Using Docker
+```
+make image
+make install
+make vue-norris
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Your Vue-Norris app is running and is accessible on localhost:5000!
+
+## Without Docker
+```
+npm install -g vue-cli
+npm install
+npm run dev
+```
+
+Now this will run on port `8080` by default. However, if you get an error saying "port already in use", 
+Go to `config/index.js` and change to whatever port you want on line #26. Then `run npm run dev` again.
