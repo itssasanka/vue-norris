@@ -7,6 +7,7 @@ https://vue-norris.firebaseapp.com/
 # Installation
 
 ## Using Docker
+Make sure you have `docker` installed and properly setup
 ```
 make image
 make install
@@ -16,6 +17,7 @@ make vue-norris
 Your Vue-Norris app is running and is accessible on localhost:5000!
 
 ## Without Docker
+Make sure you have `nodejs` installed and properly setup
 ```
 npm install -g vue-cli
 npm install
