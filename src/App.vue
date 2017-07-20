@@ -7,6 +7,10 @@
     <h3 style="{color:red;}">Chuck Norris Jokes ^_^ </h3>
 
     <joke></joke>
+
+    <div class="credit">
+      Powered by <a href="http://chucknorris.io">ChuckNorris.iO</a>
+    </div>
   </div>
 </template>
 
@@ -21,7 +25,15 @@
 </script>
 
 <style>
+  .credit{
+    margin:5px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    font:15px arial;
+  }
   #app {
+    position: relative;
     padding:5px;
     height:500px;
     border:1px dashed lightgray;
