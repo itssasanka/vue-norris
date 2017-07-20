@@ -47,6 +47,6 @@
   .next{
     width:100px;
     height:30px;
-    font:10px arial;
+    font:15px arial;
   }
 </style>
