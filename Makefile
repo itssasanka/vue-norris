@@ -5,7 +5,7 @@ vue-norris:
 image:
 	docker build -t vueapp_image .
 enter:
-	docker exec -it vueapp_image bash
+	docker exec -it vue-norris bash
 install:
 	docker run -it --rm -v $(PWD):/code \
 		vueapp_image npm install
